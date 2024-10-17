@@ -1,0 +1,105 @@
+/* Apply Google font */
+body {
+    background-color: #f8f0fc; /* Soft pastel purple */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #ffb3c1; /* Light pastel pink */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ff7eb9; /* Light pastel rose */
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff658d; /* Darker pastel pink */
+}
+
+.section {
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff7eb9; /* Light pastel rose */
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffb3c1;
+    color: white;
+    border-radius: 0 0 20px 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .section {
+        margin: 10px;
+        padding: 20px;
+    }
+}
